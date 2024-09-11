@@ -1,0 +1,79 @@
+body {
+    background-color: #EADBC8;  /* Set the background color */
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#bars-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 300px;
+    border: 1px solid #000;
+    margin: 20px;
+    background-color: #F8EDE3;  /* Keep the bars container background white for contrast */
+}
+
+.bar {
+    margin: 0 2px;
+    background-color: #007bff;
+    width: 20px;
+    display: inline-block;
+}
+.about-developer {
+    background-color: #f5f5f5;  /* Light gray background for contrast */
+    border: 2px solid #ddd;      /* Subtle border */
+    border-radius: 10px;         /* Rounded corners for a modern look */
+    padding: 20px;
+    margin: 40px auto;           /* Centered section with some top margin */
+    max-width: 800px;            /* Max width to keep it readable on large screens */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);  /* Soft shadow for a 3D effect */
+    font-family: 'Arial', sans-serif;
+}
+
+.about-developer h2 {
+    font-size: 28px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.about-developer p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+}
+
+.about-developer ul {
+    list-style-type: none;       /* Remove bullets */
+    padding-left: 0;
+}
+
+.about-developer ul li {
+    font-size: 16px;
+    color: #D36B00;              /* Use the same blue as the bars for consistency */
+    margin-bottom: 10px;
+}
+
+.about-developer ul li strong {
+    color: #333;                 /* Emphasize the degree with darker text */
+}
+
+.about-developer a {
+    color: #007bff;              /* Blue link color */
+    text-decoration: none;
+}
+
+.about-developer a:hover {
+    text-decoration: underline;  /* Underline on hover */
+}
+
+.about-developer p:last-child {
+    font-style: italic;          /* Italicize the sarcastic part at the end */
+    color: #999;
+    text-align: center;
+}
